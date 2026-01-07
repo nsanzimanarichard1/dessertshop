@@ -13,7 +13,7 @@ export function DessertCard(
     <p class="text-sm text-gray-500">${dessert.category}</p>
     <h3 class="font-semibold">${dessert.name}</h3>
     <p class="text-orange-700 font-bold">$${dessert.price.toFixed(2)}</p>
-    <button class="add-btn mt-3 w-full border rounded-full py-2 text-sm hover:bg-gray-200">
+    <button class="add-btn mt-3 cursor-pointer w-full border rounded-full py-2 text-sm hover:bg-gray-200">
       🛒 Add to Cart
     </button>
   `;

@@ -15,7 +15,10 @@ export function OrderConfirmationModal(
 
   modal.innerHTML = `
     <div class="bg-white rounded-xl p-6 max-w-md w-full mx-4">
-      <div class="text-green-500 text-4xl mb-4">✓</div>
+      <div class="bg-green-100 rounded-full flex justify-center items-center p-1 shadow-white-xl w-10 h-10 mb-4 border border-gray-300">
+        <div class="text-green-500 text-xl mb-1">✓</div>
+      </div>
+      
       <h2 class="text-2xl font-bold mb-2">Order Confirmed</h2>
       <p class="text-gray-600 mb-6">We hope you enjoy your food!</p>
 
@@ -41,7 +44,7 @@ export function OrderConfirmationModal(
         </div>
       </div>
 
-      <button class="w-full bg-orange-700 text-white py-3 rounded-full mt-6 font-medium">
+      <button class="w-full bg-orange-700 text-white py-3 rounded-full mt-6 font-medium cursor-pointer hover:bg-orange-800 transition-colors">
         Start New Order
       </button>
     </div>

@@ -46,16 +46,16 @@ export function CartItemView(
   render();
 
   // Subscribe to cart changes to re-render this item
-  const unsubscribe = cart.subscribe((event) => {
-    if (event.dessertId === item.dessert.id) {
-      // Update the item reference and re-render
-      const updatedItem = cart.getItem(event.dessertId);
-      if (updatedItem) {
-        item = updatedItem;
-        render();
-      }
-    }
-  });
+  // const unsubscribe = cart.subscribe((event) => {
+  //   if (event.dessertId === item.dessert.id) {
+  //     // Update the item reference and re-render
+  //     const updatedItem = cart.getItem(event.dessertId);
+  //     if (updatedItem) {
+  //       item = updatedItem;
+  //       render();
+  //     }
+  //   }
+  // });
 
   return el;
 }

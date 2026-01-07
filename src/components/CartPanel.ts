@@ -27,7 +27,7 @@ export function CartPanel(cart: ShoppingCart, orderManager: OrderManager): HTMLE
         <div class="mt-4 font-bold">
           Order Total: $${cart.getTotal().toFixed(2)}
         </div>
-        <button class="confirm-btn mt-4 w-full bg-orange-700 text-white py-3 rounded-full font-medium">
+        <button class="confirm-btn mt-4 w-full bg-orange-700 cursor-pointer hover:bg-orange-800 text-white py-3 rounded-full font-medium">
           Confirm Order
         </button>
       `}
