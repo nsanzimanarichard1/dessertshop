@@ -1,0 +1,88 @@
+import type { Dessert } from "../types/dessert";
+import { DessertCategory } from "../types/shared";
+import image1 from "/asset/image/1.jpg"
+
+
+export const desserts: Dessert[] = [
+  {
+    id: "d1",
+    name: "Waffle with Berries",
+    category: DessertCategory.Waffle,
+    price: 6.50,
+    image: image1,
+    description: "Crispy waffle topped with fresh berries and whipped cream",
+    inStock: true,
+  },
+  {
+    id: "d2",
+    name: "Vanilla Bean Crème Brûlée",
+    category: DessertCategory.CremeBrulee,
+    price: 7.00,
+    image: image1,
+    description: "Rich vanilla custard with a caramelized sugar crust",
+    inStock: true,
+  },
+  {
+    id: "d3",
+    name: "Macaron Mix of Five",
+    category: DessertCategory.Macaron,
+    price: 8.00,
+    image: image1,
+    description: "Assortment of five delicate French macarons",
+    inStock: true,
+  },
+  {
+    id: "d4",
+    name: "Classic Tiramisu",
+    category: DessertCategory.Tiramisu,
+    price: 5.50,
+    image: image1,
+    description: "Traditional Italian dessert with coffee-soaked ladyfingers",
+    inStock: true,
+  },
+  {
+    id: "d5",
+    name: "Pistachio Baklava",
+    category: DessertCategory.Baklava,
+    price: 4.00,
+    image: image1,
+    description: "Layers of filo pastry filled with pistachios and honey",
+    inStock: true,
+  },
+  {
+    id: "d6",
+    name: "Lemon Meringue Pie",
+    category: DessertCategory.Pie,
+    price: 5.00,
+    image: image1,
+    description: "Tangy lemon filling topped with toasted meringue",
+    inStock: true,
+  },
+  {
+    id: "d7",
+    name: "Red Velvet Cake",
+    category: DessertCategory.Cake,
+    price: 4.50,
+    image: image1,
+    description: "Moist red velvet cake with cream cheese frosting",
+    inStock: true,
+  },
+  {
+    id: "d8",
+    name: "Salted Caramel Brownie",
+    category: DessertCategory.Brownie,
+    price: 4.50,
+    image: image1,
+    description: "Fudgy brownie with sea salt and caramel drizzle",
+    inStock: true,
+  },
+  {
+    id: "d9",
+    name: "Vanilla Panna Cotta",
+    category: DessertCategory.PannaCotta,
+    price: 6.50,
+    image: image1,
+    description: "Silky vanilla custard topped with berry compote",
+    inStock: true,
+  },
+];
